@@ -1,0 +1,54 @@
+@media only screen and (max-width: 984px){
+    .navlist{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar{
+        height: 250px;
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+    }
+    .navlist li{
+        list-style: none;
+        padding:5px;
+      }
+    .navigate{
+        text-align: center;
+    }
+    .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+
+    #search{
+        width: 100%;
+    }
+    .section{
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .buttons{
+        text-align: center;
+    }
+    .paras {
+    padding: 0px;
+    }
+    .Items{
+        display: flex;
+        flex-direction: column;
+    }
+    .meals{
+        display: flex;
+        flex-direction: column;
+    }
+}
